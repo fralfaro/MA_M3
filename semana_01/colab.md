@@ -13,17 +13,17 @@ Google Colab es un entorno de notebooks Jupyter en la nube, gratuito y sin insta
 - Compartir análisis, tareas y proyectos con un simple enlace.
 - Acceder a GPU/TPU gratuita para proyectos de datos e IA.
 
-![Logo de Google Colab](colab.png)
+![Logo de Google Colab](images/colab.png)
 
 ### Ejemplos de notebooks en uso
 
 Notebook de clasificación supervisada con el dataset Iris (Python):
 
-![Notebook Python: clasificación supervisada con Iris](example_01.png)
+![Notebook Python: clasificación supervisada con Iris](images/example_01.png)
 
 Notebook de regresión lineal (R):
 
-![Notebook R: modelo de regresión de salarios](example_02.png)
+![Notebook R: modelo de regresión de salarios](images/example_02.png)
 
 ---
 
@@ -80,7 +80,7 @@ Cada sesión de Colab asigna una máquina virtual con los siguientes recursos (c
 - **Disco**: ~100 GB temporales — se borran al cerrar la sesión.
 - **GPU T4** *(disponible bajo demanda)*: para modelos de ML/DL.
 
-![Menú para cambiar el tipo de runtime y acelerador de hardware](vm.png)
+![Menú para cambiar el tipo de runtime y acelerador de hardware](images/vm.png)
 
 > ⚠️ **Sesiones temporales**: si la sesión se desconecta, los archivos locales se pierden. Guarda siempre en Drive.
 
@@ -106,7 +106,7 @@ print(f"RAM disponible:{psutil.virtual_memory().available / 1e9:.1f} GB")
 
 Ve a **Runtime → Change runtime type** para elegir el entorno:
 
-![Diálogo para cambiar el tipo de runtime en Colab](runtime.png)
+![Diálogo para cambiar el tipo de runtime en Colab](images/runtime.png)
 
 - **CPU**: para análisis de datos y scripts generales.
 - **GPU T4**: para entrenamiento de modelos de ML/DL.
