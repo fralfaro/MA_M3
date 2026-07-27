@@ -1,81 +1,58 @@
-<img 
-      src="images/logo.png" 
-      alt="Universidad Técnica Federico Santa María – Dirección General de Educación Continua"
+<img
+      src="images/logo.png"
+      alt="Universidad Tecnica Federico Santa Maria - Direccion General de Educacion Continua"
       style="height: 70px;"
       align="right">
 
 <br><br>
 
-# Diplomado en Diplomado en Marketing Analytics
+# Diplomado en Marketing Analytics
 
-## Módulo 3
+## Modulo 3: Python para analisis de datos
 
+Este repositorio contiene el material del Modulo 3 del Diplomado en Marketing Analytics. El foco esta en el uso de Python para preparar, manipular, explorar y visualizar datos aplicados a contextos de marketing y ventas.
 
-Esta asignatura entrega los conocimientos esenciales de programación en Python para el análisis de datos en contextos de marketing y ventas. Los participantes aprenderán a trabajar con estructuras de datos, manipular bases de datos utilizando librerías como Pandas y NumPy, y visualizar información mediante Matplotlib y Seaborn.
+Para mas detalles sobre contenidos, resultados de aprendizaje, metodologia, evaluacion y distribucion de horas, revisar el archivo [files/contenidos_2026.pdf](files/contenidos_2026.pdf).
 
-A través de ejercicios prácticos guiados, se busca que los participantes adquieran confianza en el uso de Python como una herramienta fundamental para preparar, procesar y analizar datos comerciales, desarrollando habilidades básicas que serán utilizadas en las siguientes asignaturas del programa.
+## Contenidos principales
 
-## Contribución a las competencias del perfil de egreso
+- Introduccion a Python y Google Colab.
+- Estructuras de datos y trabajo con notebooks.
+- Manipulacion de datos con NumPy y Pandas.
+- Analisis exploratorio de datos.
+- Visualizacion con Matplotlib y Seaborn.
+- Aplicaciones a problemas de negocios y marketing.
 
-Esta asignatura fortalecerá la **CE1**, al desarrollar en los participantes habilidades prácticas en programación en Python para el manejo y análisis de datos comerciales. A través del uso de librerías como Pandas, NumPy y Matplotlib, los participantes podrán manipular, procesar y visualizar información relevante, facilitando la toma de decisiones basada en evidencia en entornos de marketing y ventas.
+## Material por semana
 
-Asimismo, contribuye significativamente a la **CE2**, al entregar las herramientas necesarias para analizar datos provenientes de distintas fuentes utilizando técnicas exploratorias.
+| Semana | Link | Clase | Descripcion breve |
+|---|---|---|---|
+| Semana 01 | [colab.md](semana_01/colab.md) | Colab teoria | Introduccion a Google Colab, notebooks, runtimes, librerias y manejo de archivos. |
+| Semana 01 | [colab2.ipynb](semana_01/colab2.ipynb) | Colab practica | Ejercicios practicos para comenzar a trabajar en notebooks de Colab. |
+| Semana 02 | [01_data_intro.md](semana_02/01_data_intro.md) | Manipulacion de datos | Flujo inicial de preparacion, limpieza, transformacion y exploracion de datos. |
+| Semana 02 | [sc_01.ipynb](semana_02/sc_01.ipynb) | NumPy | Operaciones numericas, arreglos y bases para el analisis de datos en Python. |
+| Semana 02 | [02_vis_intro.md](semana_02/02_vis_intro.md) | Visualizacion de datos | Motivacion, buenos y malos graficos, percepcion visual y ecosistema de librerias. |
+| Semana 03 | [pd_01a.ipynb](semana_03/pd_01a.ipynb) | Pandas I | Introduccion al trabajo con datos tabulares usando DataFrames. |
+| Semana 03 | [pd_01b.ipynb](semana_03/pd_01b.ipynb) | Pandas II | Continuacion de Pandas para transformacion, agrupacion y analisis de datos. |
 
-De forma transversal e inicial, también aporta a la **CE4**, al establecer las bases operativas requeridas para la implementación técnica de proyectos analíticos en entornos colaborativos a lo largo del programa.
+## Evaluacion
 
-## Resultados de aprendizaje
+Las evaluaciones utilizan el dataset [evaluaciones/data.csv](evaluaciones/data.csv), basado en transacciones de ventas e-commerce.
 
-### RA3.1
+| Evaluacion | Notebook | Objetivo | Resultado asociado | Ponderacion |
+|---|---|---|---|---:|
+| Tarea 1: Manipulacion de datos y calculo de KPI | [tarea_01_manipulacion_kpi.ipynb](evaluaciones/tarea_01_manipulacion_kpi.ipynb) | Cargar, limpiar y transformar datos de ventas e-commerce para calcular KPI comerciales. | RA3.1 | 50% |
+| Tarea 2: Visualizacion de datos con Matplotlib y Seaborn | [tarea_02_visualizacion_eda.ipynb](evaluaciones/tarea_02_visualizacion_eda.ipynb) | Construir visualizaciones e interpretar patrones de ventas, productos, clientes y paises. | RA3.2 | 50% |
 
-Aplica estructuras y funciones básicas de Python, a través de ejercicios prácticos guiados, para manipular y procesar datos en contextos de marketing y ventas.
+**Calificacion minima de aprobacion:** 60.
 
-### RA3.2
+### Detalle de evaluaciones
 
-Desarrolla tareas de análisis exploratorio de datos, utilizando librerías como Pandas, NumPy y Matplotlib, para preparar información y construir visualizaciones relevantes que apoyen la toma de decisiones comerciales.
+**Tarea 1:** los participantes deben realizar diagnostico de calidad de datos, limpieza, creacion de variables comerciales, calculo de KPI generales y analisis por pais, producto y tiempo.
 
-## Metodología de enseñanza y aprendizaje
+**Tarea 2:** los participantes deben crear graficos claros con Matplotlib y Seaborn, analizar tendencias, rankings, distribuciones y comunicar conclusiones orientadas a decisiones de marketing y ventas.
 
-La asignatura se imparte en modalidad **100% sincrónica**, combinando sesiones teórico-prácticas con laboratorios guiados de programación en Python. Desde el inicio, los participantes trabajan escribiendo código, resolviendo problemas aplicados y desarrollando visualizaciones de datos en entornos de marketing y ventas. Se utilizan ejercicios guiados y tareas prácticas que refuerzan la comprensión técnica y favorecen la autonomía progresiva del participante.
+## Archivos utiles
 
-Las evaluaciones están directamente alineadas con los resultados de aprendizaje propuestos.
-
-- **Tarea 1**, centrada en la manipulación de datos y cálculo de KPI, permite a los participantes aplicar funciones básicas de Python para preparar y transformar información comercial, dando evidencia del logro del **RA3.1**.
-- **Tarea 2**, enfocada en la creación de visualizaciones con Matplotlib y Seaborn, permite desarrollar análisis exploratorios y construir gráficos relevantes para la toma de decisiones, contribuyendo al **RA3.2**.
-
-En conjunto, estas evaluaciones aseguran que los participantes dominen habilidades esenciales de programación analítica y análisis de datos aplicados al contexto comercial.
-
-## Contenidos
-
-- Introducción a Python
-- Estructuras de Datos en Python
-- Manipulación de Datos con Pandas y NumPy
-- Visualización de Datos
-- Introducción a la Analítica de Datos
-- Aplicaciones de Python en la Analítica de Negocios
-- Análisis de casos de negocios en temáticas de marketing (estrategias de pricing en portafolio de productos, rentabilidad de carteras de clientes, etc.) usando Python.
-
-## Evaluación
-
-| Estrategia de evaluación | Resultado de aprendizaje | Descripción | Ponderación |
-|---------------------------|--------------------------|-------------|------------:|
-| **Tarea 1: Manipulación de datos y cálculo de KPI** | RA3.1 | Los participantes, mediante el trabajo en grupos pequeños, desarrollarán un script en Python para cargar, limpiar y transformar datos, incorporando el cálculo de indicadores clave. Se espera como evidencia un archivo de código funcional y una breve explicación escrita. | 50% |
-| **Tarea 2: Visualización de datos con Matplotlib** | RA3.2 | Los participantes, mediante el trabajo en grupos pequeños, generarán gráficos utilizando Matplotlib y Seaborn para representar datos comerciales. Se espera un archivo con los gráficos creados y una interpretación de los resultados. | 50% |
-
-**Calificación mínima de aprobación:** 60.
-
-## Distribución de horas y actividades
-
-| Actividad | Horas por semana | Semanas | Horas totales |
-|-----------|-----------------:|---------:|--------------:|
-| **Trabajo Sincrónico** | | | |
-| Clase sincrónica | 7,0 | 2 | 14,0 |
-| Laboratorios | 4,0 | 2 | 8,0 |
-| **Trabajo Asincrónico** | | | |
-| Tareas (sumativo) | 7,0 | 2 | 14,0 |
-| Ejercicios formativos (guiados) | 5,0 | 2 | 10,0 |
-| **Trabajo Autónomo** | | | |
-| Lecturas y análisis de materiales | 4,0 | 2 | 8,0 |
-
-**Total de horas cronológicas:** 54,0
-
-**Número total de SCT:** 2,0
+- [Programa y contenidos 2026](files/contenidos_2026.pdf)
+- [Horario 2026](files/horario_2026.png)
