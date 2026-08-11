@@ -11,7 +11,7 @@
 
 
 
-Antes de entrenar modelos o crear visualizaciones impactantes,
+Antes de entrenar modelos o realizar análisis confiables,
 existe una etapa que define si todo lo demás tiene sentido: **preparar los datos**.
 
 Imagina que tienes acceso a los registros históricos de matrículas
@@ -24,18 +24,11 @@ Eso es exactamente lo que aprenderás en este módulo.
 
 ## ¿Qué aprenderás aquí?
 
-Este módulo cubre el flujo completo de trabajo con datos, integrando
-desde el primer momento una visualización básica como herramienta
-de comprensión — no como un tema aparte, sino como parte natural
-del proceso de análisis.
+Este módulo cubre el flujo completo de trabajo con datos, desde su
+preparación inicial hasta su transformación para el análisis.
 
-| Etapa | Contenido | Visualización asociada |
-|-------|-----------|----------------------|
-| 🔢 **NumPy** | Arreglos, operaciones numéricas, álgebra lineal | `matplotlib` básico |
-| 🗂️ **Pandas I** | Carga, limpieza y transformación de datos | `seaborn` básico |
-| 🗂️ **Pandas II** | Agrupaciones, combinaciones, reshaping | `seaborn` básico |
-| 🔍 **EDA** | Exploración y calidad del dato | `matplotlib` + `seaborn` |
-
-> 💡 La visualización **avanzada** (interactiva, geoespacial, redes)
-> se aborda en profundidad en el módulo de **Visualización**.
-> Aquí la usamos como lente para entender los datos.
+| Etapa | Contenido |
+|-------|-----------|
+| 🔢 **NumPy** | Arreglos, operaciones numéricas, álgebra lineal |
+| 🗂️ **Pandas I** | Carga, limpieza y transformación de datos |
+| 🗂️ **Pandas II** | Agrupaciones, combinaciones, reshaping |
